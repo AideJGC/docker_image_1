@@ -35,8 +35,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: dockerfiles/pkg/Dockerfile #path in repo to Dockerfil
-e
+          file: dockerfiles/pkg/Dockerfile #path in repo to Dockerfile
           platforms: linux/amd64
           push: true
           tags: 4id3jgc/pkg:0.1
