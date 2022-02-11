@@ -1,4 +1,3 @@
-# Edit line
 FROM ubuntu:bionic
 
 ENV JUPYTERLAB_VERSION 3.0.0
